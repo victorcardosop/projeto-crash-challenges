@@ -83,6 +83,14 @@
     gap: 0.3rem;
 }
 
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit.impossibleLevel {
+    background-color: red;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit.impossibleLevel:hover {
+    background-color: rgb(121, 8, 32);
+}
+
 #mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelImage {
     display: flex;
     justify-content: center;
@@ -147,6 +155,16 @@
 
 #mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .obtainedTime .timeGap {
     color: rgb(7, 196, 7);
+
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .obtainedTime .timeGapImpossible {
+    color: red;
 
     text-shadow:
     1px 1px 0 #000,
