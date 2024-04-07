@@ -1,0 +1,50 @@
+#mainPage #mainPageContent #challengePageContent #levelsListTitle {
+    background-color: red;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsListTitle #levelsListTitleHeading {
+    color: yellow;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList {
+    background-color: red;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit {
+    background-color: gray;
+    border: 0.2rem solid rgb(192, 192, 5);
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit:hover {
+    /* transform: scale(1.04);
+    transition: transform .4s; */
+    background-color: wheat;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelImage img {
+    border: 0.2rem solid rgb(192, 192, 5);
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelName {
+    color: yellow;
+
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelStats {
+    background-color: rgb(153, 152, 152);
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelStats .levelNumbers {
+    color: yellow;
+
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}

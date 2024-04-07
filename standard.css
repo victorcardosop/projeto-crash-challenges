@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Crash-a-like;
+    src: url(./fonts/crash-a-like.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Crash-a-like, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#headerLogo {
+    width: 100%;
+    padding: 1.2rem;
+    padding-bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: orangered;
+
+    border: 5px solid black;
+
+    position: fixed;
+}
+
+#linkLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#linkLogo:hover {
+    transform: scale(1.04);
+    transition: transform .4s;
+}
+
+#logo {
+    font-size: 8rem;
+    color: yellow;
+    text-shadow:
+    5px 5px 0 #000,
+    -5px 5px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
+
+#subLogo {
+    font-size: 5rem;
+    color: orange;
+    text-shadow:
+    5px 5px 0 #000,
+    -5px 5px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
+
+#headerLogo #menu {
+    width: 100%;
+    font-size: 3rem;
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#headerLogo #menu h2:hover {
+    color: white;
+    filter: brightness(1.15);
+}
+
+#spacing {
+    width: 100%;
+    height: 17.8rem;
+}
+
+#mainPage {
+    width: 100%;
+    min-height: 100rem;
+
+    background-color: rgb(12, 70, 146);
+    border: 5px solid black;
+    border-top: 0;
+
+    font-size: 3rem;
+    letter-spacing: 0.08rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainPage #mainPageContent {
+    max-width: 75%;
+    min-width: 75%;
+    height: 100%;
+    min-height: 100rem;
+    padding: 2.5rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+    border: 5px solid black;
+    border-bottom: 0;
+    border-top: 0;
+}
+
+#footerPage {
+    width: 100%;
+    height: 4rem;
+    border: 5px solid black;
+    border-top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: orangered;
+}
+
+#footerPage p {
+    font-size: 3rem;
+}

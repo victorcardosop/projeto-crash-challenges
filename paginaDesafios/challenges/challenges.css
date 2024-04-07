@@ -1,0 +1,156 @@
+#mainPage #mainPageContent #challengePageContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+#mainPage #mainPageContent #challengePageContent #challengeCompleteTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainPage #mainPageContent #challengePageContent #challengeTitle {
+    font-size: 6rem;
+    color: orangered;
+
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
+
+#mainPage #mainPageContent #challengePageContent #challengeSubTitle {
+    font-size: 4rem;
+    color: orange;
+
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
+
+#mainPage #mainPageContent #challengePageContent #challengeText {
+    background-color: rgb(241, 241, 241);
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsListTitle {
+    border-radius: 0.8rem;
+    padding: 2rem;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsListTitle #levelsListTitleHeading {
+    font-size: 6rem;
+
+    text-shadow:
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList {
+    border-radius: 0.8rem;
+    padding: 2rem 0;
+
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit {
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+
+    /* min-width: 39rem;
+    max-width: 39rem; */
+
+    min-height: 43rem;
+    max-height: 43rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelImage {
+    display: flex;
+    justify-content: center;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelImage img {
+    max-width: 35.4rem;
+
+    border-radius: 0.8rem;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.8rem;
+
+    color: white;
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelPresentation {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelName {
+    font-size: 3.8rem;
+    padding-left: 0.2rem;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelDifficulty {
+    font-size: 2.8rem;
+    padding-left: 0.2rem;
+    border-radius: 0.8rem;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelStats {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelStats .levelNumbers {
+    font-size: 2.8rem;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .attemptAmount,
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .attemptRanking,
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .targetTime,
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .obtainedTime {
+    font-size: 2.5rem;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .obtainedTime .timeGap {
+    color: rgb(7, 196, 7);
+
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}

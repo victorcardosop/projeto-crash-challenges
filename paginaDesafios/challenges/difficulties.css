@@ -1,0 +1,47 @@
+.pacifist .levelDifficulty {
+    color: white;
+}
+
+.veryEasy .levelDifficulty {
+    color: rgb(135, 224, 2);
+}
+
+.easy .levelDifficulty {
+    color: green;
+}
+
+.medium .levelDifficulty {
+    color: rgb(207, 207, 9);
+}
+
+.hard .levelDifficulty {
+    color: rgb(236, 87, 33);
+}
+
+.veryHard .levelDifficulty {
+    color: red;
+}
+
+.extreme .levelDifficulty {
+    color: darkorchid;
+}
+
+.nightmare .levelDifficulty {
+    color: rgb(80, 1, 69);
+
+    text-shadow:
+    1px 1px 0 #ad0606,
+    -1px 1px 0 #ad0606,
+    -2px -2px 0 #ad0606,
+    2px -2px 0 #ad0606;
+}
+
+.infernal .levelDifficulty {
+    color: black;
+
+    text-shadow:
+    1px 1px 0 #63035e,
+    -1px 1px 0 #63035e,
+    -2px -2px 0 #63035e,
+    2px -2px 0 #63035e;
+}

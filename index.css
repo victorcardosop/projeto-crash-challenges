@@ -1,0 +1,40 @@
+#mainPage #mainPageContent #presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+#mainPage #mainPageContent #presentation #presentationTitle {
+    font-size: 6rem;
+    text-align: center;
+    color: orangered;
+
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
+
+#mainPage #mainPageContent img {
+    max-width: 60%;
+    border: 5px solid orangered;
+}
+
+#mainPage #mainPageContent #presentation #challengesLink {
+    background-color: orangered;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainPage #mainPageContent #presentation #presentationText {
+    background-color: rgb(241, 241, 241);
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+}

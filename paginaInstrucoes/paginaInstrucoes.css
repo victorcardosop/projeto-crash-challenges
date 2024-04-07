@@ -1,0 +1,111 @@
+#mainPage #mainPageContent #instructionsContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsTitle {
+    font-size: 6rem;
+    color: orangered;
+
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsText {
+    background-color: rgb(241, 241, 241);
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsText .imageCentralizer {
+    display: flex;
+    justify-content: center;
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsText #levelInformationBankInstructions,
+#mainPage #mainPageContent #instructionsContent #instructionsText #gameListInstructions,
+#mainPage #mainPageContent #instructionsContent #instructionsText #levelListInstructions {
+    background-color: orange;
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsText #levelInformationBankInstructions #difficultyLevelsBox {
+    background-color: orangered;
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsText #levelInformationBankInstructions #difficultyLevelsBox div {
+    display: flex;
+    gap: 4rem;
+
+    align-items: center;
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsText #levelInformationBankInstructions #difficultyLevelsBox div strong {
+    font-size: 5rem;
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+
+    min-width: 27rem;
+    letter-spacing: 0.2rem;
+
+    text-align: right;
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsText #levelInformationBankInstructions #difficultyLevelsBox div #difficultyPacifist {
+    color: white;
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsText #levelInformationBankInstructions #difficultyLevelsBox div #difficultyVeryEasy {
+    color: rgb(135, 224, 2);
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsText #levelInformationBankInstructions #difficultyLevelsBox div #difficultyEasy {
+    color: green;
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsText #levelInformationBankInstructions #difficultyLevelsBox div #difficultyMedium {
+    color: rgb(207, 207, 9);
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsText #levelInformationBankInstructions #difficultyLevelsBox div #difficultyHard {
+    color: rgb(236, 87, 33);
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsText #levelInformationBankInstructions #difficultyLevelsBox div #difficultyVeryHard {
+    color: red;
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsText #levelInformationBankInstructions #difficultyLevelsBox div #difficultyExtreme {
+    color: darkorchid;
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsText #levelInformationBankInstructions #difficultyLevelsBox div #difficultyNightmare {
+    color: rgb(80, 1, 69);
+
+    text-shadow:
+    1px 1px 0 #ad0606,
+    -1px 1px 0 #ad0606,
+    -2px -2px 0 #ad0606,
+    2px -2px 0 #ad0606;
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsText #levelInformationBankInstructions #difficultyLevelsBox div #difficultyInfernal {
+    color: black;
+
+    text-shadow:
+    1px 1px 0 #63035e,
+    -1px 1px 0 #63035e,
+    -2px -2px 0 #63035e,
+    2px -2px 0 #63035e;
+}
