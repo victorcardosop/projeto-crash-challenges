@@ -109,3 +109,15 @@
     -2px -2px 0 #63035e,
     2px -2px 0 #63035e;
 }
+
+#mainPage #mainPageContent #instructionsContent #instructionsText #levelInformationBankInstructions #difficultyLevelsBox div #difficultyImpossible {
+    color: black;
+
+    text-shadow:
+    0px 0px 0 #000,
+    -0px 0px 0 #000,
+    -0px -0px 0 #000,
+    0px -0px 0 #000;
+
+    font-weight: bolder;
+}
