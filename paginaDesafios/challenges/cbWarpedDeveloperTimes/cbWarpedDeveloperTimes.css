@@ -1,3 +1,11 @@
+#mainPage #mainPageContent #challengePageContent #challengeCompleteTitle #challengeTitle {
+    color: yellow;
+}
+
+#mainPage #mainPageContent #challengePageContent #challengeCompleteTitle #challengeSubTitle {
+    color: red;
+}
+
 #mainPage #mainPageContent #challengePageContent #levelsListTitle {
     background-color: red;
 }

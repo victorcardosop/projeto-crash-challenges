@@ -1,40 +1,46 @@
 #mainPage #mainPageContent #challengePageContent #challengeCompleteTitle #challengeTitle {
-    color: #419B39;
+    color: rgb(211, 210, 208);
 }
 
 #mainPage #mainPageContent #challengePageContent #challengeCompleteTitle #challengeSubTitle {
-    color: #E5671F;
+    color: #043b83;
+
+    text-shadow:
+    1px 1px 0 rgb(211, 210, 208),
+    -1px 1px 0 rgb(211, 210, 208),
+    -2px -2px 0 rgb(211, 210, 208),
+    2px -2px 0 rgb(211, 210, 208);
 }
 
 #mainPage #mainPageContent #challengePageContent #levelsListTitle {
-    background-color: #043b83;
+    background-color: rgb(211, 210, 208);
 }
 
 #mainPage #mainPageContent #challengePageContent #levelsListTitle #levelsListTitleHeading {
-    color: #419B39;
+    color: white;
 }
 
 #mainPage #mainPageContent #challengePageContent #levelsList {
-    background-color: #043b83;
+    background-color: rgb(211, 210, 208);
 }
 
 #mainPage #mainPageContent #challengePageContent #levelsList .levelUnit {
-    background-color: #E5671F;
-    border: 0.2rem solid #419B39;
+    background-color: #043b83;
+    border: 0.2rem solid rgb(160, 8, 8);
 }
 
 #mainPage #mainPageContent #challengePageContent #levelsList .levelUnit:hover {
     /* transform: scale(1.04);
     transition: transform .4s; */
-    background-color: #a84003;
+    background-color: #0f2e55;
 }
 
 #mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelImage img {
-    border: 0.2rem solid #419B39;
+    border: 0.2rem solid rgb(160, 8, 8);
 }
 
 #mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelName {
-    color: #419B39;
+    color: white;
 
     text-shadow:
     1px 1px 0 #000,
@@ -44,11 +50,11 @@
 }
 
 #mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelStats {
-    background-color: #d14d00;
+    background-color: red;
 }
 
 #mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelStats .levelNumbers {
-    color: #419B39;
+    color: white;
 
     text-shadow:
     1px 1px 0 #000,

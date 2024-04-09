@@ -1,3 +1,17 @@
+#mainPage #mainPageContent #challengePageContent #challengeCompleteTitle #challengeTitle {
+    color: #0EC269;
+}
+
+#mainPage #mainPageContent #challengePageContent #challengeCompleteTitle #challengeSubTitle {
+    color: #001F5A;
+
+    text-shadow:
+    1px 1px 0 rgb(211, 210, 208),
+    -1px 1px 0 rgb(211, 210, 208),
+    -2px -2px 0 rgb(211, 210, 208),
+    2px -2px 0 rgb(211, 210, 208);
+}
+
 #mainPage #mainPageContent #challengePageContent #levelsListTitle {
     background-color: #0CAA91;
 }
