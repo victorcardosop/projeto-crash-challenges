@@ -127,6 +127,11 @@
     padding-left: 0.2rem;
 }
 
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelName.tooBigName {
+    font-size: 3.3rem;
+    padding-bottom: 0.2rem;
+}
+
 #mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelDifficulty {
     font-size: 2.8rem;
     padding-left: 0.2rem;
