@@ -1,0 +1,59 @@
+#mainPage #mainPageContent #challengePageContent #challengeCompleteTitle #challengeTitle {
+    color: #D4B75E;
+}
+
+#mainPage #mainPageContent #challengePageContent #challengeCompleteTitle #challengeSubTitle {
+    color: #436915;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsListTitle {
+    background-color: #D4B75E;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsListTitle #levelsListTitleHeading {
+    color: #D8DCDF;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList {
+    background-color: #D4B75E;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit {
+    background-color: #436915;
+    border: 0.2rem solid #8F5936;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit:hover {
+    /* transform: scale(1.04);
+    transition: transform .4s; */
+    background-color: #29410d;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelImage img {
+    border: 0.2rem solid #8F5936;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelName {
+    color: #D8DCDF;
+
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelStats {
+    background-color: #8F5936;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelStats .levelNumbers {
+    /* color: #8F5936; */
+    color: #D8DCDF;
+
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
