@@ -168,6 +168,14 @@
     2px -2px 0 #000;
 }
 
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .obtainedTime .timeGap.tooBigDif {
+    font-size: 2rem;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .obtainedTime .timeGap.tooBiggerDif {
+    font-size: 1.8rem;
+}
+
 #mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .obtainedTime .timeGapImpossible {
     color: red;
 

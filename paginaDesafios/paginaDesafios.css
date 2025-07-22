@@ -5,7 +5,8 @@
     gap: 3rem;
 }
 
-#mainPage #mainPageContent #challengesPageContent #challengesTitle {
+#mainPage #mainPageContent #challengesPageContent #challengesTitle,
+#mainPage #mainPageContent #challengesPageContent #challengesTitleBonus {
     font-size: 6rem;
     color: orangered;
 
@@ -16,7 +17,8 @@
     2px -2px 0 #000;
 }
 
-#mainPage #mainPageContent #challengesPageContent #challengesText {
+#mainPage #mainPageContent #challengesPageContent #challengesText,
+#mainPage #mainPageContent #challengesPageContent #challengesTextBonus {
     background-color: rgb(241, 241, 241);
     border-radius: 0.8rem;
     padding: 1.5rem;
@@ -54,6 +56,10 @@
     -1px 1px 0 #000,
     -2px -2px 0 #000,
     2px -2px 0 #000;
+}
+
+#mainPage #mainPageContent #challengesPageContent .challenge .gameInfo .gameName.tooBigName {
+    font-size: 4.5rem
 }
 
 #mainPage #mainPageContent #challengesPageContent .challenge .gameInfo .challengeThemeInfo {

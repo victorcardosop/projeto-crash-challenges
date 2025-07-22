@@ -1,0 +1,75 @@
+#mainPage #mainPageContent #challengePageContent #challengeCompleteTitle #challengeTitle {
+    color: #d10d0d;
+}
+
+#mainPage #mainPageContent #challengePageContent #challengeCompleteTitle #challengeSubTitle {
+    color: #03618d;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsListTitle {
+    background-color: #03618d;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsListTitle #levelsListTitleHeading {
+    color: #d10d0d;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList {
+    background-color: #03618d;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit {
+    background-color: #d10d0d;
+    border: 0.2rem solid darkblue;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit:hover {
+    /* transform: scale(1.04);
+    transition: transform .4s; */
+    background-color: #940707;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelImage img {
+    border: 0.2rem solid darkblue;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelName {
+    color: #077aaf;
+    display: flex;
+    align-items: center;
+
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelName .mk8dTrackPlatform {
+    color: white;
+    margin-right: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2.3rem;
+    background-color: #242222;
+    border-radius: 1rem;
+
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelStats {
+    background-color: #920635;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelStats .levelNumbers {
+    color: #077aaf;
+
+    text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+}
