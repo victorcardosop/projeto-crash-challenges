@@ -132,6 +132,16 @@
     padding-bottom: 0.2rem;
 }
 
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelName.tooBiggerName {
+    font-size: 2.8rem;
+    padding-bottom: 0.2rem;
+}
+
+#mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelName.tooBiggererName {
+    font-size: 2.2rem;
+    padding-bottom: 0.2rem;
+}
+
 #mainPage #mainPageContent #challengePageContent #levelsList .levelUnit .levelInfo .levelDifficulty {
     font-size: 2.8rem;
     padding-left: 0.2rem;

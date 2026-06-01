@@ -6,7 +6,7 @@
 }
 
 #mainPage #mainPageContent #instructionsContent #instructionsTitle {
-    font-size: 6rem;
+    font-size: 4.5rem;
     color: orangered;
 
     text-shadow:
@@ -25,6 +25,10 @@
 #mainPage #mainPageContent #instructionsContent #instructionsText .imageCentralizer {
     display: flex;
     justify-content: center;
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsText .imageCentralizer .instructionImage {
+    max-width: 80rem;
 }
 
 #mainPage #mainPageContent #instructionsContent #instructionsText #levelInformationBankInstructions,
@@ -60,6 +64,10 @@
     letter-spacing: 0.2rem;
 
     text-align: right;
+}
+
+#mainPage #mainPageContent #instructionsContent #instructionsText #levelInformationBankInstructions #difficultyLevelsBox div .difficulty {
+    font-size: 3.5rem;
 }
 
 #mainPage #mainPageContent #instructionsContent #instructionsText #levelInformationBankInstructions #difficultyLevelsBox div #difficultyPacifist {
